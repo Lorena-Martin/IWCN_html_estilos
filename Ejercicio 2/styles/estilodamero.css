@@ -1,0 +1,100 @@
+#damero{
+	border-style: solid;
+	border-color: #000000;
+	width: 1350px;
+	height: 640px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+#damero div div {
+	width: 168.75px;
+	height: 80px;
+	float: left;
+}
+
+#damero div:nth-child(odd) div:nth-child(even),
+#damero div:nth-child(even) div:nth-child(odd) {
+	background: black;
+}
+
+@media screen and (max-width: 1400px){
+
+	#damero{
+		width: 1350px;
+		max-height: 640px;
+	}
+
+	#damero div div{
+		width: 168.75px;
+		max-height: 80px;
+	}
+}
+
+@media screen and (max-width: 1200px){
+
+	#damero{
+		width: 1150px;
+		max-height: 600px;
+	}
+
+	#damero div div{
+		width: 143.75px;
+		max-height: 75px;
+	}
+}
+
+@media screen and (max-width: 900px){
+
+	#damero{
+		width: 850px;
+		max-height: 600px;
+	}
+
+	#damero div div{
+		width: 106.25px;
+		max-height: 75px;
+	}
+}
+
+@media screen and (max-width: 700px){
+
+	#damero{
+		width: 650px;
+		max-height: 600px;
+	}
+
+	#damero div div{
+		width: 81.25px;
+		max-height: 75px;
+	}
+}
+
+@media screen and (max-width: 500px){
+
+	#damero{
+		width: 450px;
+		max-height: 600px;
+	}
+
+	#damero div div{
+		width: 56.25px;
+		max-height: 75px;
+	}
+}
+
+@media screen and (max-width: 300px){
+
+	#damero{
+		width: 250px;
+		max-height: 450px;
+	}
+
+	#damero div div{
+		width: 31.25px;
+		max-height: 56.25px;
+	}
+}
